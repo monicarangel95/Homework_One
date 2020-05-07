@@ -23,21 +23,48 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-
-.header nav {
-    padding-top: 15px;
-    width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
+.logo-wrap{
+    float:left
+}
+.nav-wrap{
+    float: right;
+    padding-top: 8px;
+    
 }
 
-a {
+.header nav {
+    /* position: fixed; */
+    margin-right: 20px;
+    /* float: right; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width:100%;
+    list-style-type: none;
+}
+
+.header::after{
+    content: "";
+    display: table;
+    clear: both
+}
+nav a {
     color: #ffffff;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     float: right;
+    padding-top: 10;
+    padding-bottom: 10px;
+}
+nav a:hover{
+    color: pink;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 p {
