@@ -1,8 +1,7 @@
-# User Story
-As a student, this is a project to implement and improve a given code by refactoring so that it follows accessibility standards, uses semantic HTML, and improves code readability so that the site is optimized for search engines. 
-
-# Employee-Tracker
+# Code Refactor
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## User Story
+As a student, this is a project to implement and improve a given code by refactoring so that it follows accessibility standards, uses semantic HTML, and improves code readability so that the site is optimized for search engines. 
 
 ## Table of Contents
   - [Description](#description)
